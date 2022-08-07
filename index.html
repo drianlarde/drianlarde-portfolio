@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Belards</title>
+
+    <script src="./script.js" defer></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Local .css File -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/ba0256e7be.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <!-- Local .js File -->
+  </head>
+
+  <!-- Divider -->
+
+  <body>
+    <div class="container">
+      <div id="header-maintenance-id" class="header-maintenance">My Portfolio is still under maintenance. Please wait for more updates!</div>
+
+      <div class="nav-container">
+        <div class="logo">Adrian Abelarde</div>
+        <div id="lists-container" class="lists-container">
+          <ul id="links" class="links">
+            <li><a href="#about">About</a></li>
+            <li><a href="https://belards.notion.site/Belards-Portfolio-3f93a50a18f148e992dac2b9d13c67d5" target="_blank" rel="noopener">Portfolio</a></li>
+            <li><a href="#tk">Knowledge</a></li>
+          </ul>
+
+          <div id="hamburger-menu" class="hamburger-menu">
+            <button title="Burger Menu" type="button" class="hamburger" id="hamburger" onclick="menuClick()">
+              <div id="1" class="burger">
+                <i id="hamburger-icon" class="fa-solid fa-bars open"></i>
+              </div>
+              <div id="2" class="close">
+                <i id="close-icon" class="fa-solid fa-xmark"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="root-menu"></div>
+    </div>
+
+    <!-- Divider -->
+
+    <div class="main-container">
+      <div class="banner-container">
+        <img
+          class="banner"
+          src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff4764d42-053a-4a32-96dc-18cfa6914dd4%2FKahiru_Fanart_-_2.jpg?table=block&id=d4b72069-4cb7-4c8c-8226-d2328f4ae333&spaceId=b5a1b550-9784-449d-9e6a-3d535c0770be&width=1830&userId=6a41c67a-180b-4dbe-b0fe-2f47bc2186b5&cache=v2"
+          alt=""
+        />
+      </div>
+      <div class="comment-desc-container">
+        <div class="comment-desc">
+          <p>Hello! I'm a Web Developer based from Philippines.</p>
+        </div>
+      </div>
+
+      <!-- Divider -->
+
+      <div class="whole-name-container">
+        <div class="name-container">
+          <div>
+            <p class="fullname">Adrian Abelarde</p>
+          </div>
+          <div>
+            <p class="role">Digital Artisan (Artist / Developer / Designer)</p>
+          </div>
+          <div class="links-port-cv">
+            <div class="links-port-cv-text-container">
+              <i class="fa-brands fa-linkedin"></i>
+              <a rel="noopener" class="links-port-cv-txtdec-off" href="https://www.linkedin.com/in/belards/" target="_blank"> LinkedIn</a>
+            </div>
+            <div class="divider"></div>
+            <div class="links-port-cv-text-container">
+              <i class="fa-solid fa-link"></i>
+              <a
+                rel="noopener"
+                class="links-port-cv-txtdec-off"
+                href="https://belards.notion.site/Belards-Portfolio-3f93a50a18f148e992dac2b9d13c67d5"
+                target="_blank"
+                >Portfolio</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="fb-pfp-container">
+          <img
+            class="fb-pfp"
+            src="https://scontent.fmnl30-1.fna.fbcdn.net/v/t1.6435-9/70398655_500148343877942_2484651375443574784_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEQmGxakOGqQMeku_SXxv7pby-GhUcG08RvL4aFRwbTxFCxzwXtRoIAWFMgmkNKi-LhaK-8pLkUIJIbgTuvbEIP&_nc_ohc=39_pI6r02zcAX_eicla&_nc_ht=scontent.fmnl30-1.fna&oh=00_AT_Q_klbE6vQCTNk7yVeKXkQiAQrWWmCYaTorVQ_2gmVVw&oe=62FD78FB"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- Divider -->
+
+      <div class="work">
+        <h3 id="about">About Me</h3>
+        <p>
+          Adrian is a freelancer and upcoming junior college student taking Bachelor of Science in Computer Science. He loves the 'creative process' behind
+          building a product/brand designs and solving real-world problems.
+        </p>
+        <p>
+          He is a goal-driven person interested in being involved with; UI/UX Designing & Research (Design, Usability, Visual Design & Analytical Skills),
+          Front-end, Back-end, Game Development (Unity), 3D Modelling, and Web or Mobile Development (Flutter).
+        </p>
+        <div class="portfolio-btn-container">
+          <div align="center" class="portfolio-btn">
+            <a rel="noopener" href="https://belards.notion.site/Belards-Portfolio-3f93a50a18f148e992dac2b9d13c67d5" class="button-text" target="_blank"
+              >View Portfolio<i class="fa-solid fa-caret-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divider -->
+
+      <div id="tk" class="tk">
+        <h3>Technical Knowledge</h3>
+        <div class="tk-container">
+          <div><span>Web Development</span> HTML, CSS, & JavaScript</div>
+          <div>
+            <span>Procedural and (OOP)</span>
+            C/C++, Java & Python
+          </div>
+          <div><span>Game Development</span> C# Unity & Blender</div>
+          <div><span>Mobile Development</span> Flutter</div>
+          <div><span>UI/UX Design</span> Figma</div>
+          <div>
+            <span>Video Editing & Motion Design</span>
+            After Effects, Premiere Pro
+          </div>
+          <div><span>Photo Manipulation</span> Photoshop</div>
+        </div>
+      </div>
+
+      <!-- <div class="pg-header">
+        <h3>Playground</h3>
+        <blockquote>
+          A place for practicing and applying my new learned HTML, CSS &
+          JavaScript skills.
+        </blockquote>
+
+        <div class="zero-test-parent">
+          <div id="test-id" class="zero-test">
+            <div id="test-id" class>Hi!</div>
+            <div id="izt" class="inside-zero-test">You're Breathtaking!</div>
+          </div>
+        </div>
+
+        <div class="btn-wrapper">
+          <button id="toggle-btn" type="button">Toggle Me!</button>
+        </div>
+      </div> -->
+
+      <section class="section-article">
+        <!-- HTML -->
+
+        <article>
+          <div>
+            <h2><i class="fa-brands fa-html5"></i>HTML</h2>
+            <p>99%</p>
+          </div>
+
+          <div class="bar99-container">
+            <div id="bar" class="bar99bg"></div>
+
+            <div id="bar" class="bar99"></div>
+          </div>
+        </article>
+
+        <!-- CSS -->
+
+        <article>
+          <div>
+            <h2><i class="fa-brands fa-css3"></i>CSS</h2>
+            <p>85%</p>
+          </div>
+
+          <div class="bar85-container">
+            <div id="bar" class="bar85bg"></div>
+            <div id="bar" class="bar85"></div>
+          </div>
+        </article>
+
+        <!-- JavaScript -->
+
+        <article>
+          <div>
+            <h2><i class="fa-brands fa-html5"></i>JavaScript</h2>
+            <p>80%</p>
+          </div>
+
+          <div class="bar80-container">
+            <div id="bar" class="bar80bg"></div>
+
+            <div id="bar" class="bar80"></div>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <!-- <div class="cursor"></div> -->
+  </body>
+</html>
