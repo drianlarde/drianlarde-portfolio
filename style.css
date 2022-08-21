@@ -316,12 +316,14 @@ body {
   display: flex;
   color: #fff;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   width: auto;
   height: 100%;
 
   gap: 10px;
 }
+
+
 
 .name-container {
   display: flex;
@@ -744,5 +746,10 @@ body {
   .banner-container {
     margin-top: 10rem;
   }
+}
 
+@media (max-width: 500px) {
+  .whole-name-container {
+    align-items: center;
+  }
 }
