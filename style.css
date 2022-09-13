@@ -17,6 +17,8 @@
   color: white;
 
   transition: all 0.3s ease;
+  /* smooth scroll */
+  scroll-behavior: smooth;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -359,7 +361,7 @@ body {
   line-height: 1;
   font-size: 36px;
   font-weight: 1000;
-  text-align: center;
+  text-align: left;
 }
 
 .work {
@@ -702,6 +704,10 @@ body {
   }
 
   .role {
+    text-align: center;
+  }
+
+  .fullname {
     text-align: center;
   }
 
