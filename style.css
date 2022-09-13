@@ -15,6 +15,8 @@
 
   line-height: 1.5;
   color: white;
+
+  transition: all 0.3s ease;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -34,6 +36,10 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background-color: rgb(28, 28, 28);
+}
+
+.comment-desc p {
+  margin: 0 !important;
 }
 
 .header-maintenance {
@@ -63,7 +69,7 @@ body {
   font-weight: 500;
 }
 
-.container {
+.upperbar {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -72,25 +78,29 @@ body {
   position: fixed;
 }
 
+.links {
+  margin-bottom: 0 !important;
+}
+
 .lists-container {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.container ul {
+.upperbar ul {
   display: flex;
   justify-content: flex-end;
   grid-column-start: 2;
   grid-column-end: 4;
 }
 
-.container ul li {
+.upperbar ul li {
   list-style: none;
   margin: 10px;
 }
 
-.container ul li a {
+.upperbar ul li a {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -102,7 +112,7 @@ body {
   transition: all 0.1s ease-in-out;
 }
 
-.container ul li a:hover {
+.upperbar ul li a:hover {
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.137);
 
@@ -122,7 +132,6 @@ body {
   justify-content: center;
   height: auto;
   margin-top: 8rem;
-
 }
 
 .hamburger-menu {
@@ -297,8 +306,8 @@ body {
 
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
   .nav-container {
-    -webkit-backdrop-filter: blur(.5em);
-    backdrop-filter: blur(.5em);
+    -webkit-backdrop-filter: blur(0.5em);
+    backdrop-filter: blur(0.5em);
   }
 }
 
@@ -322,8 +331,6 @@ body {
 
   gap: 10px;
 }
-
-
 
 .name-container {
   display: flex;
@@ -604,14 +611,12 @@ body {
 }
 
 .section-article article h2 i {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
-
 
 .bar99-container {
   position: relative;
   height: 15px;
-
 }
 
 .bar99 {
@@ -632,17 +637,14 @@ body {
   width: 100%;
 
   position: absolute;
-
 }
 
 .bar85-container {
   position: relative;
   height: 15px;
-
 }
 
 .bar85bg {
-
   background-color: #167266;
   border-radius: 1rem;
   height: 15px;
@@ -662,11 +664,9 @@ body {
 .bar80-container {
   position: relative;
   height: 15px;
-
 }
 
 .bar80bg {
-
   background-color: #167266;
   border-radius: 1rem;
   height: 15px;
@@ -687,8 +687,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
-
 
 @media screen and (max-width: 500px) {
   .section-article {
